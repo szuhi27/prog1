@@ -1,0 +1,21 @@
+2.2
+
+Egy program, ami eldönti más programokról, hogy azok le fognak fagyni vagy nem, másképp a Turing megállási probléma. Alan Turing, az Enigma feltörője, az első "számítógép" készítője, a névadója a problémának. Ugyanis először ő mondta meg, hogy efféle program nem létezik.
+
+Turing gondolatmenete a problémával kapcsolatban:
+Tegyük fel, hogy van egy programunk, ez be fog fogadni "imputokat" és ad nekünk "outputokat". Ez a program megválaszolja a kérdést, hogy a feltételezések magukkal vonják-e a következtetést. Felteszünk egy kérdést, amit "ő" megválaszol, igen vagy nem. A kérdés az, hogy egy program, aminek egy bizonyos bementet adunk, ad-e választ, vagy a végtelenségig fog futni. Tehát megáll vagy sem. Továbbá egy program valami bemenettel fog-e valaha lefagyni?
+Turing feladata az volt, hogy bebizonyítsa, hogy lehetetlen olyan programot létrehozni, ami megoldja a "megállási problémát". Vajon egy adott gép, egy adott bemenettel megáll vagy sem?
+
+Turing válasza a kérdésre:
+Tegyük fel, hogy meg van a gépünk, ami eldönti, hogy egy adott program leáll-e vagy sem, tehát a működése elvétől függetlenül, az adott gép választ ad, igen leáll, vagy nem nem áll le.
+Ha megvan ez a gép át tudjuk alakítani egy másik géppé, úgy hogy, ha a válasz "igen", akkor egy végtelen ciklusba kerül, ha a válasz "nem" azonnal leáll.
+Ekkor jön az újabb kérdés, mi van ha ezt a bővített programot "imputként" beadjuk önmagának? Ebben az esetben, ha a válasz "igen", azaz megáll, akkor egy végtelen ciklusba kerül, azaz mégsem áll le. De ha nem áll le, a válasz "nem", aztán leáll.
+Tehát az adott program, ha leáll, akkor nem áll le, valamint ha nem áll le, akkor leáll. Így egy ellentmondásba kerülünk.
+
+Tehát feltételeztük, hogy létezik megoldás a problémába, de végül egy ellentmondásba ütköztünk. Azaz nem lehetséges olyan gépet/programot létrehozni, ami megoldja a megállási problémát, vagyis eldönti egy adott gépről/programról, hogy az le áll-e vagy sem.
+
+
+
+
+"Turing & The Halting Problem - Computerphile" alapján
+(https://www.youtube.com/watch?v=macM_MtS_w4	 2019. 03. 05. 22:35)
