@@ -35,5 +35,5 @@ plot(x,y,type="b")
 
 
 #RGui (3.5.2)
-#forrás: https://hu.wikipedia.org/wiki/Brun-t%C3%A9tel (2018.03.05. 18:59)
-		#https://youtu.be/xbYhp9G6VqQ (2018.03.05. 18:55)
+#forrás: https://hu.wikipedia.org/wiki/Brun-t%C3%A9tel (2019.03.05. 18:59)
+		#https://youtu.be/xbYhp9G6VqQ (2019.03.05. 18:55)
