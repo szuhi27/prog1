@@ -1,0 +1,8 @@
+i. Ha nem volt figyelmen kívül hagyva a ctrl+c általi megszakítás, akkor beállítja a jelkezelésre a "jelkezelo" függvényt. Ha figyelmen kívül volt hagyva, akkor továbbra is figyyelmen kívül lesz hagyva, hisz az if fejében meghívtuk a signal függvényt, és beállítottuk a SIG_IGN-t, ami nem csinál mást, mint figyelmen kívül fogja hagyni a ctrl+c általi megszakítás lehetőségét.
+ii.	i=0-tó növeljük i értékét, míg az 5-nél kisebb
+iii.	ugynaugy növeljük az értékét, de az i mindig a növelés előtti értékét adja, azaz ez egyel többször fog lefutni, mit az 'ii.'
+iv.	szintén i=0 tól megy, míg kiseb mint 5 és az adott tömb i-edik elemének az i++-t adja értékül azaz az i növelés előtti értékét. Azaz első körben a tömb 1. eleme 0 lesz, majd a tömb 2. eleme 1 és így tovább.
+v.	i 0-ról indul és minden körben növeljük egyel az értékét (már ezt a növelt értéket adja vissza), addik megy, míg az i kisebb mint 'n' és a d-re mutató pointert növeljük (postfix módon) ésrt megkapja az s pointer (postfix módon) növelt értékét.
+vi.	A 'printf' kiiratás, a rész ""%d %d"" azt jelzi, hogy 2 integer formátumot fogunk kiiratni. Az f() egy fügvényt hív meg, aminek bemenetként először megadjuk az a-t, majd az a egyel növelt értékét. Másodszorra pedig az a eggyel növelt értékét, majd az a-t (ami már korábban meg volt növelve).
+vii.	Ismét két számot iratunk ki, megint meghívunk egy függvényk, minek bemenetképt az a-t adjuk, továbbá kiiratjuk az a-t.
+viii.	Ismét kiiratunk két számot, jelen esetben az f függvények egy a-ra mutató pointert adunk és kiiratjuk mellé az a-t.

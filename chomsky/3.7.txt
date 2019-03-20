@@ -1,0 +1,20 @@
+3.7
+
+$(\forall x \exists y ((x<y)\wedge(y \text{ prím})))$
+		(∀x∃y((x < y) ∧ (y prı́m)))
+		= Minden x-nél van nagyobb y és van olyan y, ami prím.
+
+
+$(\forall x \exists y ((x<y)\wedge(y \text{ prím})\wedge(SSy \text{ prím})))$
+		(∀x∃y((x < y) ∧ (y prı́m) ∧ (SSy prı́m)))
+		= Minden x-nél van nagyobb y és van olyan y, ami prím és van olyan y, ami prím.
+
+
+$(\exists y \forall x (x \text{ prím}) \supset (x<y)) $
+		(∃y∀x(x prı́m) ⊃ (x < y))
+		= Minden x prím, ebből következik, hogy minden x-nél van nagyobb y.
+
+
+$(\exists y \forall x (y<x) \supset \neg (x \text{ prím}))$
+		(∃y∀x(y < x) ⊃ ¬(x prı́m))
+		= Van olyan y, aminél minden x nagyobb, ebből következik, hogy nem minden x prím.

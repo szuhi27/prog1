@@ -1,0 +1,20 @@
+i.		int a;
+			=deklaráljuk az a integert
+ii.		int *b = &a;
+			=dc a b pointert, ami az a ra mutat
+iii.	int &r = a;
+			=cd az r, ami az a referenciája
+iv.		int c[5];
+			=dc a c 5 elemű integer alapú tömböt
+v.		int (&tr)[5] = c;
+			=a c 5 elemű tömbök referenciája
+vi.		int *d[5];
+			=d 5 elemű tömb, ami egészre mutató mutatók tömbje
+vii.	int *h ();	
+			=dc a h függyvényt egészre mutató mutatót visszaadó függvény
+viii.	int *(*l) ();
+			=
+ix.		int (*v (int c)) (int a, int b);	
+			=
+x.		int (*(*z) (int)) (int, int);
+			=
